@@ -31,3 +31,9 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:26+'
     compile project(':app')
 }
+
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
